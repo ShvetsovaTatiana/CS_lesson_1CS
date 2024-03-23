@@ -23,7 +23,7 @@ void ShowMatrix(int[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            Console.Write($"{matrix[1, j]} ");
+            Console.Write($"{matrix[i, j]} ");
         }
         Console.WriteLine();
     }
